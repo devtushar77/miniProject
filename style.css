@@ -95,13 +95,15 @@ border:2px solid white;
 .list-2{
     font: size 0.8em;;
 }
-.nav-signin{
 
-}
 .nav-signin:hover,.nav-return:hover{
     border:2px solid white;
     border-radius: 4px;
     cursor: pointer;
+}
+.nav-orders:hover{
+border:2px solid white;
+    border: radius 3px;
 }
 .nav-cart{
     display:flex;
@@ -110,4 +112,22 @@ border:2px solid white;
 .cart-para{
     font-size: 1rem;
     padding-top: 10px;
+}
+.nav-cart:hover{
+border:2px solid white;
+    border: radius 3px;
+}
+.panel{
+    display: flex;
+    color: #cccccc;
+    background-color: #0f1111;
+    align-items: center;
+    justify-content: space-around;
+    height:38px;
+}
+.panel-options{
+   display: flex;
+}
+.panel-options p{
+    padding-left:30px;
 }
